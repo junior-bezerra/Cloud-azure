@@ -1,0 +1,73 @@
+O Azure Storage é um conjunto de serviços escaláveis e seguros da Microsoft para armazenamento em nuvem, com alta disponibilidade e redundância. Aqui estão os principais serviços e conceitos:
+
+1. Tipos de Armazenamento
+Blobs (Blob Storage):
+
+Armazena dados não estruturados (imagens, vídeos, backups).
+
+Tipos: Block Blobs (arquivos comuns), Append Blobs (logs), Page Blobs (discos de VMs).
+
+Casos de uso: Sites estáticos, big data, backup.
+
+Arquivos do Azure (Azure Files):
+
+Compartilhamentos de arquivos mapeáveis como unidades de rede via SMB/NFS.
+
+Substitui servidores de arquivos locais.
+
+Ideal para migração de aplicações legadas.
+
+Tabelas (Table Storage):
+
+Banco de dados NoSQL para dados semi-estruturados.
+
+Armazenamento chave-valor com alta escalabilidade.
+
+Usado para logs, metadados e dados flexíveis.
+
+Filas (Queue Storage):
+
+Mensagens assíncronas para comunicação entre aplicações.
+
+Exemplo: Processamento em segundo plano (background jobs).
+
+Discos do Azure (Azure Disks):
+
+Discos virtuais (HDDs/SSDs) para máquinas virtuais (VMs).
+
+Tipos: Standard HDD, Standard SSD, Premium SSD, Ultra Disk.
+
+2. Redundância e Durabilidade
+LRS (Local Redundant Storage): 3 cópias em um datacenter (11 noves de durabilidade).
+
+ZRS (Zone Redundant Storage): 3 cópias em zonas de disponibilidade (12 noves).
+
+GRS (Geo-Redundant Storage): 6 cópias (3 locais + 3 em outra região) (16 noves).
+
+RA-GRS (Read-Access GRS): GRS + leitura na região secundária.
+
+3. Ferramentas de Gerenciamento
+AzCopy: Utilitário de linha de comando para transferência eficiente de dados.
+
+Azure Storage Explorer: Interface gráfica para gerenciar arquivos, blobs e tabelas.
+
+REST API/SDKs: Integração com aplicações customizadas.
+
+4. Segurança
+Criptografia: SSE (Storage Service Encryption) para dados em repouso.
+
+RBAC: Controle de acesso baseado em funções (Azure AD).
+
+Firewalls/VNets: Restrição de acesso a redes específicas.
+
+5. Casos de Uso Comuns
+Backup e recuperação de desastres (DR).
+
+Hospedagem de sites estáticos (Blob Storage).
+
+Migração de servidores de arquivos (Azure Files).
+
+Big Data & Analytics (Data Lake Storage).
+
+Conclusão
+O Azure Storage oferece soluções flexíveis para diferentes necessidades, desde armazenamento de objetos até discos de VMs. Dominar esses serviços permite construir aplicações escaláveis, seguras e altamente disponíveis na nuvem.
