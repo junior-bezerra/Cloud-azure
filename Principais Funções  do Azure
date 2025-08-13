@@ -1,0 +1,56 @@
+# 🌐 Microsoft Azure Cloud – Principais Funções
+
+O **Microsoft Azure** é uma plataforma de **computação em nuvem** da Microsoft que oferece uma ampla gama de serviços para empresas e desenvolvedores.  
+Ele possibilita a criação, implantação e gerenciamento de aplicações e recursos em data centers distribuídos globalmente.
+
+---
+
+## 🚀 Principais Funções e Serviços
+
+### 1. **Computação**
+- **Máquinas Virtuais (VMs):** Hospedagem de sistemas operacionais e aplicações.
+- **Azure App Service:** Hospedagem de aplicativos web, APIs e mobile sem gerenciar infraestrutura.
+- **Azure Functions:** Execução de código sob demanda (serverless).
+
+### 2. **Armazenamento**
+- **Blob Storage:** Armazenamento de grandes volumes de dados não estruturados.
+- **File Storage:** Compartilhamento de arquivos na nuvem.
+- **Disk Storage:** Discos virtuais para VMs.
+
+### 3. **Rede**
+- **Virtual Network (VNet):** Redes privadas na nuvem.
+- **Load Balancer:** Distribuição de tráfego para alta disponibilidade.
+- **VPN Gateway:** Conexão segura entre a nuvem e redes locais.
+
+### 4. **Banco de Dados**
+- **Azure SQL Database:** Banco de dados relacional totalmente gerenciado.
+- **Cosmos DB:** Banco NoSQL globalmente distribuído.
+- **Database for MySQL/PostgreSQL:** Serviços gerenciados para bancos open-source.
+
+### 5. **Segurança e Identidade**
+- **Azure Active Directory (AAD):** Gerenciamento de identidade e autenticação.
+- **Azure Security Center:** Monitoramento e proteção contra ameaças.
+- **Key Vault:** Armazenamento seguro de chaves, segredos e certificados.
+
+### 6. **DevOps e Desenvolvimento**
+- **Azure DevOps:** Integração e entrega contínua (CI/CD).
+- **GitHub Actions (com Azure):** Automatização de pipelines.
+- **API Management:** Gerenciamento de APIs de forma segura e escalável.
+
+### 7. **Inteligência Artificial e Análise**
+- **Azure Cognitive Services:** APIs para visão computacional, fala e linguagem.
+- **Azure Machine Learning:** Treinamento e implantação de modelos de IA.
+- **Power BI Embedded:** Visualização e análise de dados.
+
+---
+
+## 📌 Benefícios do Azure
+- Escalabilidade global.
+- Pagamento conforme uso.
+- Integração nativa com o ecossistema Microsoft.
+- Alta disponibilidade e recuperação de desastres.
+
+---
+
+**Conclusão:**  
+O **Azure** é uma solução flexível que atende desde pequenas empresas até grandes corporações, permitindo construir desde simples sites até complexas aplicações com IA e Big Data, tudo de forma segura e escalável.
